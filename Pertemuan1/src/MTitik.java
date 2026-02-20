@@ -1,3 +1,7 @@
+/* Nama File    : MTitik.java
+ * Deskripsi    : Main Titik
+ * Pembuat      : Yasmina Syahidah
+ * Tanggal      : 19 Februari 2025 */
 
 
 public class MTitik {
@@ -9,5 +13,10 @@ public class MTitik {
         T1.geser(3, 4);
         T1.printTitik();
 
+
     }
 }
+
+
+
+
