@@ -13,7 +13,7 @@ public class Titik {
 
     Titik(){
         this(0,0);
-        counterTitik++;
+
     }
 
     static int getCounterTitik(){
@@ -23,6 +23,7 @@ public class Titik {
     Titik(double x, double y){
         absis = x;
         ordinat = y;
+        counterTitik++;
 
 
     }
@@ -86,6 +87,10 @@ public class Titik {
 
     Titik getRefleksiX(){
        return new Titik(absis, ordinat*(-1));
+    }
+
+    Titik getRefleksiY(){
+       return new Titik(absis*(-1), ordinat);
     }
 
 
