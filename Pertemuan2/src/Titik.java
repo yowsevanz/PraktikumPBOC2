@@ -77,6 +77,10 @@ public class Titik {
         return Math.sqrt(absis*absis+ordinat*ordinat);
     }
 
+    double getJarak(Titik T){
+        return Math.sqrt((this.absis-T.absis)*(this.absis-T.absis)+(this.ordinat-T.ordinat)*(this.ordinat-T.ordinat));
+    }
+
     void refleksiX(){
         ordinat = ordinat*(-1);
     }

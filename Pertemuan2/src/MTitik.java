@@ -35,6 +35,7 @@ public class MTitik {
         System.out.println("Kuadran T1 = " + T1.getKuadran());
         T1.printTitik();
         System.out.println("Jarak titik pusat T1 = " + T1.getJarakPusat());
+        System.out.println("Jarak T1 dengan T3 = " + T1.getJarak(T3));
 
         System.out.println("\nProcedure Refleksi");
         System.out.println("refleksiX T3 = ");
