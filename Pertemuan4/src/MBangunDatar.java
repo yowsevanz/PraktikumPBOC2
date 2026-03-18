@@ -4,10 +4,16 @@
  * Tanggal      : 12 Maret 2026 */
 
 public class MBangunDatar {
+    /* REALISASI */
     public static void main(String[] args) {
-    
+        System.out.println("====== REALISASI BANGUN DATAR ======");
+        BangunDatar BD1 = new BangunDatar(2, "Biru", "Putih");
+        System.out.println("Bangun Datar 1");
+        BD1.printInfo();
 
-        System.out.println("====== REALISASI PERSEGI ======");
+
+
+        System.out.println("\n====== REALISASI PERSEGI ======");
         Persegi P1 = new Persegi(10, "putih", "hitam");
         P1.printInfo();
         System.out.println("Keliling P1 = "+P1.getKeliling());

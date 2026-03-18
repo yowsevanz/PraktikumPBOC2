@@ -4,9 +4,14 @@
  * Tanggal      : 12 Maret 2026 */
 
 public class Lingkaran extends BangunDatar{
+    /* ATRIBUT */ 
     private double jari;
 
+    /* METHOD */
+
+    //Konstruktor
     public Lingkaran(){
+        setJmlSisi(1);
 
     }
 
@@ -15,14 +20,17 @@ public class Lingkaran extends BangunDatar{
         super(1, warna, border);
     }
 
+    // Selektor
     public double getJari(){
         return jari;
     }
 
+    // Mutator
     public void setJari(double jari){
         this.jari = jari;
     }
 
+    // Method lainnya
     public double getLuas(){
         return Math.PI * jari * jari;
     }
@@ -31,12 +39,16 @@ public class Lingkaran extends BangunDatar{
         return 2*Math.PI*jari;
     }
 
-    public void printInfo(){
-        System.out.println("Jumlah Sisi : "+ getJmlSisi());
-        System.out.println("Warna       : "+getWarna());
-        System.out.println("Border      : "+getBorder());
+    // @Override Method
+    // public void printInfo(){
+    //     System.out.println("Jumlah Sisi : "+ getJmlSisi());
+    //     System.out.println("Warna       : "+getWarna());
+    //     System.out.println("Border      : "+getBorder());
+    //     System.out.println("jari        : "+ jari);
+    // }
 
-        // super.printInfo();
+    public void printInfo(){
+        super.printInfo(); // keyword super
         System.out.println("jari        : "+ jari);
     }
 

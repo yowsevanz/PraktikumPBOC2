@@ -4,8 +4,12 @@
  * Tanggal      : 12 Maret 2026 */
 
 public class Persegi extends BangunDatar {
+    /* ATRIBUT */
     private double Sisi;
 
+    /* METHOD */
+
+    // Konstruktor
     public Persegi(){
         setJmlSisi(4);
     
@@ -19,20 +23,23 @@ public class Persegi extends BangunDatar {
         super(4, warna, border); // contoh penggunaan keyword super 
 
         // hanya dapat digunakan kalo atribut tidak menggunakan Access modifier private tapi protected
-        this.jmlSisi = 4; 
-        this.warna = warna;
-        this.border = border;
-        this.Sisi = Sisi;
+        // this.jmlSisi = 4; 
+        // this.warna = warna;
+        // this.border = border;
+        // this.Sisi = Sisi;
     }
 
+    // Selektor 
     public double getSisi(){
         return Sisi;
     }
 
+    // Mutator
     public void setSisi(double Sisi){
         this.Sisi = Sisi;
     }
 
+    // Method lainnya
     public double getLuas(){
         return Sisi*Sisi;
     }
@@ -45,8 +52,19 @@ public class Persegi extends BangunDatar {
         return Sisi*Math.sqrt(2);
     }
 
+    // @Override method
     public void printInfo(){
-        super.printInfo();
-        System.out.println("Sisi        : "+Sisi);
+        System.out.println("Jumlah Sisi : "+ getJmlSisi());
+        System.out.println("Warna       : "+getWarna());
+        System.out.println("Border      : "+getBorder());
+
+        // super.printInfo();
+        System.out.println("Sisi        : "+ Sisi);
     }
+    
+    // Keyword Super
+    // public void printInfo(){
+    //     super.printInfo();
+    //     System.out.println("Sisi        : "+Sisi);
+    // }
 }
