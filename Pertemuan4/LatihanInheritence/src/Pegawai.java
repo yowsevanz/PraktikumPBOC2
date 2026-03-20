@@ -7,12 +7,16 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class Pegawai {
+    /* ATRIBUT */
     private String nip;
     private String nama;
     private LocalDate tanggalLahir;
     private LocalDate tmt;
     private double gajipokok;
 
+    /* METHOD */
+
+    // KONSTRUKTOR 
     public Pegawai(){
 
     }
@@ -25,6 +29,7 @@ public class Pegawai {
 
     }
 
+    // SELEKTOR
     public String getNip(){
         return nip;
     }
@@ -46,6 +51,7 @@ public class Pegawai {
     }
 
 
+    // MUTATOR
     public void setNip(String nip){
         this.nip = nip;
     }
@@ -67,7 +73,7 @@ public class Pegawai {
         this.gajipokok = gajipokok;
     }
 
-    
+    // METHOD LAINNYA    
     public Period getMasaKerja() {
         return Period.between(tmt, LocalDate.now());
     }

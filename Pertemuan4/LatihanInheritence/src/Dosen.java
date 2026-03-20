@@ -1,12 +1,16 @@
 /* Nama File    : Dosen.java
- * Deskripsi    : Kelas Dosen 
+ * Deskripsi    : Kelas Dosen mewarisi kelas Pegawai
  * Pembuat      : Yasmina Syahidah
  * Tanggal      : 12 Maret 2026 */
 import java.time.LocalDate;
 
 public class Dosen extends Pegawai {
+    /* ATRIBUT */
     private String fakultas;
 
+    /* METHOD */
+
+    // KONSTRUKTOR 
     public Dosen(){
 
     }
@@ -16,10 +20,12 @@ public class Dosen extends Pegawai {
         this.fakultas = fakultas;
     }
 
+    // SELEKTOR
     public String getFakultas(){
         return this.fakultas;
     }
 
+    // MUTATOR
     public void setFakultas(String fakultas){
         this.fakultas = fakultas;
     }
