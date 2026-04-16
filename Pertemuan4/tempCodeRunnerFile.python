@@ -1,0 +1,13 @@
+# decrease by constant
+# mencari nilai maksimum dari selisi array yang berurutan
+def max_diff(arr, n):
+    if n == 1:
+        return 0
+    
+    prev = max_diff(arr, n - 1)
+    curr = abs(arr[n - 1] - arr[ n - 2])
+    print(max(prev, curr))
+    return max(prev, curr)
+
+arr = [1, 2, 9, -99, -2, 3, 1090, 8]
+print(max_diff(arr, len(arr)))

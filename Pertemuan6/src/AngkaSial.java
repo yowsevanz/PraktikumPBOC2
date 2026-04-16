@@ -1,5 +1,11 @@
+/* Nama File    : AngkaSial.java
+ * Deskripsi    : Penggunaan exception dalam menangani angka sial 
+ * Pembuat      : Yasmina Syahidah
+ * Tanggal      : 26 Maret 2026 */
+
 public class AngkaSial {
     public void cobaAngka(int angka) throws AngkaSialException{
+    
         if (angka==13) {
             throw new AngkaSialException();
         }
