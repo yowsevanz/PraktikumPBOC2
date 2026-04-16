@@ -1,3 +1,8 @@
+/* Nama File    : ExceptionOnArray.java
+ * Deskripsi    : Mendemonstrasikan penanganan exception ArrayIndexOutOfBoundsException saat mengakses indeks array
+ * Pembuat      : Yasmina Syahidah
+ * Tanggal      : 26 Maret 2026 */
+
 public class ExceptionOnArray {
     public static void main(String[] args) {
         Integer[] arrayInteger = new Integer[4];
