@@ -1,3 +1,8 @@
+/* Nama File    : MataKuliah.java
+ * Deskripsi    : Kelas Mata Kuliah
+ * Pembuat      : Yasmina Syahidah
+ * Tanggal      : 5 Maret 2026 */
+
 public class MataKuliah {
     /* ATRIBUT */
     private String idMatkul;

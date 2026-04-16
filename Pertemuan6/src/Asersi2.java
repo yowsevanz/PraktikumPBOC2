@@ -1,5 +1,12 @@
+/* Nama File    : Asersi2.java
+ * Deskripsi    : Penggunaan asersi untuk memvalidasi bahwa nilai jari-jari pada kelas Lingkaran tidak boleh nol
+ * Pembuat      : Yasmina Syahidah
+ * Tanggal      : 26 Maret 2026 */
 class  Lingkaran {
+    /* ATRIBUT */
     private double jariJari;
+
+    /* METHOD */
     public Lingkaran(double jariJari){
         this.jariJari = jariJari;
     }
@@ -11,6 +18,7 @@ class  Lingkaran {
     
 }
 
+/* Kelas Asersi */
 public class Asersi2 {
 
     public static void main(String[] args) {
