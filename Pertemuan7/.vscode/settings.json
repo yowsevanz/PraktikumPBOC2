@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "Overloading/src",
+        "Coercion/src",
+        "Inclusion/src"
+    ]
+}
