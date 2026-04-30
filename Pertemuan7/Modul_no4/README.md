@@ -1,18 +1,6 @@
-## Getting Started
+## POLIMORFISME
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Polimorfisme pada kasus ini terlihat pada kelas Parents CivitasAkademika dan kelas turunannya yaitu kelas Dosen dan Mahasiswa. Dimana terlihat pada penggunaan tipe parent CivitasAkademika untuk objek Dosen dan Mahasiswa, kedua objek tersebut sama-sama bertipe CivitasAkademika namun mereferensikan objek dengan tipe asli yang berbeda. Hal ini termasuk dalam Inclusion yang mana memungkinkan satu referensi tipe objek digunakan untuk berbagai bentuk objek. Kemudian polimorfisme pun terlihat pada fungsi getNomor yang pada kelas parents merupakan method abstract yang kemudian baru di implementasikan secara berbeda pada kelas turunan, pada kelas Dosen mengembalikan Nip dan pada kelas Mahasiswa mengembalikan Nim. Sehingga saat pemanggilan method yang sama menghasilkan perilaku yang berbeda sesuai tipe objek yang sebenarnya.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Inclusion Polymorphism juga terlihat pada kelas Seminar terdapat array pesertas yang elemennya dapat ber tipe asli Dosen atau Mahasiswa namun tersimpan sebagai satu tipe sama dalam array pesertas sebagai tipe CivitasAkademika. Meski begitu tiap tiap objek tetap mempertahankan perilaku sesuatu tipe aslinya, hal ini terlihat jelas ketika pemanggilan method getNomor(). tipe Mahasiswa akan mengembalikan Nim sementara Dosen akan mengembalikan Nip.
