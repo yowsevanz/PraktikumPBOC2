@@ -1,4 +1,4 @@
-# ** HASIL IMPLEMENTASI LIST, SET, MAP PADA JFRAME**
+# **HASIL IMPLEMENTASI LIST, SET, MAP PADA JFRAME**
 
 ## 1. LIST
 List adalah struktur data yang digunakan untuk menyimpan kumpulan elemen secara berurutan. List mempertahankan urutan data sesuai saat elemen ditambahkan dan memperbolehkan adanya data yang sama (duplikat). Karena setiap elemen memiliki indeks, data dapat diakses berdasarkan posisinya dalam daftar. Pada program ini, List digunakan untuk menyimpan seluruh item yang ada pada JList tanpa menghilangkan data yang berulang.
