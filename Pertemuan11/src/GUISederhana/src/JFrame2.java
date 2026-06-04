@@ -5,7 +5,9 @@
 
 /**
  *
- * @author LENOVO
+ * @author 
+ * Nama : Yasmina Syahidah
+ * NIM : 24060124130116
  */
 import javax.swing.DefaultListModel;
 import java.util.ArrayList;
