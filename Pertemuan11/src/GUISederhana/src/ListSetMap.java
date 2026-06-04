@@ -215,7 +215,7 @@ public class ListSetMap extends javax.swing.JFrame {
 
     private void jButtonInsertDataMapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonInsertDataMapActionPerformed
         // TODO add your handling code here:
-        dlm.clear();
+        
         for(int key : mapItems.keySet()) {
             dlm.addElement(mapItems.get(key));
         }
@@ -224,7 +224,7 @@ public class ListSetMap extends javax.swing.JFrame {
 
     private void jButtonInsertDataSetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonInsertDataSetActionPerformed
         // TODO add your handling code here:
-        dlm.clear();
+       
         for (String item : setItems){
             dlm.addElement(item);
              
@@ -282,7 +282,7 @@ public class ListSetMap extends javax.swing.JFrame {
 
     private void jButtonInsertDataListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonInsertDataListActionPerformed
         // TODO add your handling code here:
-        dlm.clear();
+        
         for (String item : items){
             dlm.addElement(item);
         }
